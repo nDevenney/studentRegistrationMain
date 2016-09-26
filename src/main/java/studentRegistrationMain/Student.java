@@ -6,6 +6,7 @@ public class Student {
     private String lastName;
     private String id;
     private String dateOfBirth;
+    private Course course;
     private int age;
 
     public Student(String firstName, String lastName, String id, String dateOfBirth, int age) {
@@ -50,6 +51,14 @@ public class Student {
 
     public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public void setCourse(Course course) {
+        this.course = course;
     }
 
     public int getAge() {
