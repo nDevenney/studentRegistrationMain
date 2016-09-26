@@ -46,4 +46,8 @@ public class Module {
         this.students = students;
     }
 
+    @Override
+    public String toString() {
+        return name + " (" + id + ")";
+    }
 }

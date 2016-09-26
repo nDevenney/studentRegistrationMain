@@ -15,7 +15,7 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
         this.age = age;
     }
-    
+
     public String getUsername() {
         return firstName + lastName + age;
     }
@@ -60,4 +60,9 @@ public class Student {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " [ID: " + id + ", Born: " + dateOfBirth + ", Username: " + getUsername()
+                + "]";
+    }
 }
