@@ -7,3 +7,6 @@
 
 # maven target
 target/
+
+# shippable test results/coverage
+shippable/
